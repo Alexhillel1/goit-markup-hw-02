@@ -103,6 +103,7 @@ letter-spacing: 0.02em;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.06em;
+  font-family: inherit;
 }
 /*Hero-end*/
 
@@ -201,6 +202,7 @@ letter-spacing: 0.02em;
     background: var(--bg-white-color);
     border-radius: 4px;
     cursor: pointer;
+    font-family: inherit;
 }
 
 .btn-filter.current{
