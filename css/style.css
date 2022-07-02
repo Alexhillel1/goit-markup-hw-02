@@ -200,6 +200,10 @@ letter-spacing: 0.02em;
     cursor: pointer;
 }
 
+.btn-filter.current{
+    background-color: var(--hover-btn-color);
+}
+
 .btn-filter:hover, .btn-filter:focus, .btn-filter:active{
     background: var(--hover-btn-color);
 }
