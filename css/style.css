@@ -17,6 +17,9 @@ body {
 ul {
   list-style: none;
 }
+address{
+    font-style: inherit;
+}
 
 /*Header-start*/
 .logo {
@@ -227,5 +230,6 @@ letter-spacing: 0.02em;
     color: var(--sub-color);
 
 }
+
 
 /*Portfolio.html-start*/
