@@ -36,6 +36,11 @@ ul {
 .menu-item a {
   color: var(--title-color);
   text-decoration: none;
+  color: var(--title-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+letter-spacing: 0.02em;
 }
 
 .menu-item a:hover,
@@ -218,4 +223,5 @@ ul {
     color: var(--sub-color);
 
 }
+
 /*Portfolio.html-start*/
