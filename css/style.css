@@ -95,6 +95,12 @@ body {
   background-color: var(--white-color);
   letter-spacing: 0.03em;
   font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
 }
 /*Header-start*/
 .page-header {
