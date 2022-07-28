@@ -401,11 +401,8 @@ main {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  margin: -15px;
-}
-
-.portfolio-item {
-  margin: 15px;
+  row-gap: 30px;
+  column-gap: 30px;
 }
 
 .portfolio-card-info {
