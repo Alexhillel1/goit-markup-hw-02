@@ -134,10 +134,7 @@ main {
 .menu-list {
   display: flex;
   align-items: center;
-}
-
-.menu-item:not(:last-child) {
-  margin-right: 50px;
+  column-gap: 50px;
 }
 
 .menu-link {
@@ -158,10 +155,7 @@ main {
   display: flex;
   align-items: center;
   margin-left: auto;
-}
-
-.menu-adress-item:not(:last-child) {
-  margin-right: 50px;
+  column-gap: 50px;
 }
 
 .address-link {
@@ -238,10 +232,8 @@ main {
 .about-list {
   display: flex;
   align-items: center;
-}
-
-.about-item:not(:last-child) {
-  margin-right: 30px;
+  column-gap: 30px;
+  row-gap: 10px;
 }
 
 .about-item-title {
@@ -269,10 +261,8 @@ main {
 .how-list {
   display: flex;
   align-items: center;
-}
-
-.how-item:not(:last-child) {
-  margin-right: 30px;
+  column-gap: 30px;
+  row-gap: 10px;
 }
 
 /*About-end*/
@@ -289,10 +279,13 @@ main {
 .team-list {
   display: flex;
   align-items: center;
+  column-gap: 30px;
+  row-gap: 10px;
 }
 
-.team-item:not(:last-child) {
-  margin-right: 30px;
+.team-item {
+  width: calc((100% - 90px) / 4);
+  /* calc((100% - кол-во_зазоров_в_строке * значение_одного_зазора) / кол-во_элементов_в_строке) */
 }
 
 .team-card-info {
@@ -364,10 +357,7 @@ main {
   align-items: center;
   justify-content: center;
   margin-bottom: 50px;
-}
-
-.portfolio-filter-item:not(:last-child) {
-  margin-right: 8px;
+  column-gap: 8px;
 }
 
 .btn-filter {
@@ -407,6 +397,7 @@ main {
 
 .portfolio-item {
   width: calc((100% - 60px) / 3);
+  /* calc((100% - кол-во_зазоров_в_строке * значение_одного_зазора) / кол-во_элементов_в_строке) */
 }
 
 .portfolio-card-info {
